@@ -14,8 +14,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("Charlo's Stag!!!")
-st.header("🍀🍻🍷🍸🍹🍺🥃🥤🧃🍻🍀")
+st.title("🍀 Charlo's Stag 🍀")
+st.header("🍻🍷🍸🍹🍺🥃🥤🧃🍻")
 
 tabs = ["DRINKS", "CHALLENGES"]
 tab1, tab2 = st.tabs(tabs)
