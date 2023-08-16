@@ -54,7 +54,7 @@ with tab2:
                            "cigarette.jpeg": "ask someone for a cigarette",
                            "girls.jpeg": "get a photo with two girls",
                            "corporate.jpeg": "ask someone to connect with you on linkedin",
-                           "lad.jpeg": "do a shot of tequila",
+                           "lads.jpeg": "do a shot of tequila",
                            }
         
     # If "challenges" is not in session state, initialize it
