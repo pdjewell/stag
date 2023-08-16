@@ -21,10 +21,11 @@ tabs = ["DRINKS", "CHALLENGES"]
 tab1, tab2 = st.tabs(tabs)
 
 with tab1:
+    
     # If "drinks" is not in session state, initialize it
     if "drinks" not in st.session_state:
         st.session_state["drinks"] = os.listdir("drinks")
-        # You might want to remove any unwanted files like .DS_Store
+        # Remove .DS_Store
         if ".DS_Store" in st.session_state["drinks"]:
             st.session_state["drinks"].remove(".DS_Store")
 
@@ -61,8 +62,7 @@ with tab2:
     if "challenges" not in st.session_state:
         st.session_state["challenges"] = os.listdir("challenges")
 
-   
-        # You might want to remove any unwanted files like .DS_Store
+        # Remove .DS_Store
         if ".DS_Store" in st.session_state["challenges"]:
             st.session_state["challenges"].remove(".DS_Store")
 
