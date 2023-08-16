@@ -50,7 +50,7 @@ with tab1:
 with tab2:
 
     challenges_dict = {"arm_wrestle.jpeg": "challenge someone to an arm wrestle",
-                           "beer_bong.jpeg": "down a/your beer",
+                           "beer_bong.jpeg": "down a beer",
                            "cigarette.jpeg": "ask someone for a cigarette",
                            "girls.jpeg": "get a photo with two girls",
                            "corporate.jpeg": "ask someone to connect with you on linkedin",
