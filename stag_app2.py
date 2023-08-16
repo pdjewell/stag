@@ -21,7 +21,7 @@ tabs = ["DRINKS", "CHALLENGES"]
 tab1, tab2 = st.tabs(tabs)
 
 with tab1:
-    
+
     # If "drinks" is not in session state, initialize it
     if "drinks" not in st.session_state:
         st.session_state["drinks"] = os.listdir("drinks")
@@ -34,9 +34,9 @@ with tab1:
             choice = np.random.randint(0, len(st.session_state["drinks"]))  # Index should start from 0
             drink_choice = st.session_state["drinks"].pop(choice)
             with st.spinner("⌛ Wait for it..."):
-                time.sleep(1.5)
-            with st.spinner("🥱 The suspense..."):
-                time.sleep(1.5)
+                time.sleep(1.2)
+            with st.spinner("😬 The suspense..."):
+                time.sleep(1.2)
             st.header(f"Here you go, your drink is...")
             st.image(f"drinks/{drink_choice}", width=300)
             st.header(f"{drink_choice.split('.')[0]}!!!")
